@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CCO-116744</title>
+    </head>
+    <body>
+        <form action="http://www.example.com/review.php" method="get">
+        <table style="background-color: rgb(90, 55, 172); color: white;">
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>FIRST NAME</td>
+                <td colspan="2"><input type="text">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td colspan="">LAST NAME</td>
+                <td colspan="2"><input type="text">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td colspan="2"><select name="day" style="border-radius: 5px;">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                  
+                  <select name="month" style="border-radius: 5px;">
+                    <option value="">Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                  </select>
+                  
+                  <select name="year" style="border-radius: 5px;">
+                    <option value="">Year</option>
+                    <option value="2021">2019</option>
+                    <option value="2022">2020</option>
+                    <option value="2022">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2022">2023</option>
+                  </select></td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>EMAIL ID</td>
+                <td colspan="2"><input type="email"></td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>MOBILE NUMBER</td>
+                <td colspan="2"><input type="text" maxlength="10">(10 digits number)</td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>GENDER</td>
+                <td colspan="2">Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender"></td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td colspan="2"><textarea rows="4" cols="40" id="Address"></textarea></td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>CITY</td>
+                <td colspan="2"><input type="text">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>PIN CODE</td>
+                <td colspan="2"><input type="text" maxlength="6">(6 digits number)</td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>STATE</td>
+                <td colspan="2"><input type="text">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>COUNTRY</td>
+                <td colspan="2"> <input type="text" value="Pakistan"></td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>HOBBIES</td>
+                <td colspan="2">Drawing<input type="checkbox">Singing<input type="checkbox">Dancing<input type="checkbox">Sketching<input type="checkbox"><br>Others<input type="checkbox"><input type="text"></td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>QUALIFICATION</td>
+                <td colspan="2">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.No.</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of Passing</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2"></th>
+                                <th>(10 char max)</th>
+                                <th>(upto 2 decimals)</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td>COURSES <br> APPLIED FOR</td>
+                <td colspan="2">BCA<input type="radio" name="Class">B.COM<input type="radio" name="Class">B.Sc<input type="radio" name="Class">B.A<input type="radio" name="Class"></td>
+            </tr>
+            <tr><td colspan="3"><br></td></tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit"><input type="submit" value="Reset"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
